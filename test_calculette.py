@@ -7,12 +7,12 @@ def cal():
 
 
 def test_add(cal):
-	cal.add(1,50)
+	cal.add(1,51)
 	assert cal.res == 52
 
 def test_div(cal):
 	cal.divide(1,8)
-	assert cal.res == 0.21
+	assert cal.res == 0.125
 
 def test_raise(cal):
 	with pytest.raises(Error):
